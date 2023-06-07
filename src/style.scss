@@ -1,0 +1,48 @@
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to right, #bbe9f7 40%, #d3dff4 100%);
+}
+
+.card {
+  margin: 15px;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+.card textarea,
+.card input {
+  width: 100%;
+}
+
+nav a.active {
+  background: rgb(209, 238, 249);
+  border-radius: 10%;
+}
+
+.btn-toolbar {
+  align-items: center;
+}
+
+
+.active {
+  color: pink;
+}
+
+#newpost {
+  max-width: 50%;
+}
+
+.sign-in-on {
+  max-width: 50%;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.posts {
+  display: flex;
+}
